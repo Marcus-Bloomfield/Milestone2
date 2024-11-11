@@ -3,6 +3,14 @@ using System.Web;
 
 namespace SchoolApp.API.Data.ViewModels
 {
+    /*
+* Course: 		Web Programming 3
+* Assessment: 	Milestone 2
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		10 11 2024
+* Class Name: 	RegisterVM.cs
+* Description:  This is a class that is used as a register view model for the api.
+ */
     public class RegisterVM
     {
         public string FirstName { get; set; }

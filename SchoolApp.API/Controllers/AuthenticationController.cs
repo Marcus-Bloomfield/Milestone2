@@ -17,6 +17,14 @@ using System.Threading.Tasks;
 
 namespace SchoolApp.API.Controllers
 {
+/*Course: 		Web Programming 3
+* Assessment: 	Milestone 2
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		<10> <11> 2024
+* Class Name:   AuthenticationController.cs
+* Description: 	This class handles creating a user, validating the user login and creating tokens and validating tokens. 
+* Time Task B):	2 hrs
+*/
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticationController : ControllerBase

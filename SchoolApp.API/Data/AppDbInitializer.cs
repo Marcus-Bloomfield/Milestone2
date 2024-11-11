@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace SchoolApp.API.Data
 {
+    /*
+* Course: 		Web Programming 3
+* Assessment: 	Milestone 2
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		10 11 2024
+* Class Name: 	LoginVM.cs
+* Description:  This is a class that is used too seed roles that a meant to exist by default in a database.
+*               When the api is opened and the database has no roles, its made by default.
+ */
     public class AppDbInitializer
     {
         public static async Task SeedRolesToDb(IApplicationBuilder applicationBuilder)

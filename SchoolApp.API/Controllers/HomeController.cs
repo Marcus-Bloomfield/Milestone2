@@ -9,6 +9,14 @@ using System.Threading.Tasks;
 
 namespace SchoolApp.API.Controllers
 {
+    /*Course: 		Web Programming 3
+* Assessment: 	Milestone 2
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		<10> <11> 2024
+* Class Name:   HomeController.cs
+* Description:  This class is the home controller that gets responses based on user roles. 
+* Time Task B):	2 hrs
+*/
     [ApiController]
     [Route("[controller]")]
     public class HomeController : ControllerBase

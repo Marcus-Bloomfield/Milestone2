@@ -9,6 +9,14 @@ using System.Threading.Tasks;
 
 namespace SchoolApp.API.Controllers
 {
+    /*Course: 		Web Programming 3
+* Assessment: 	Milestone 2
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		<10> <11> 2024
+* Class Name:   AuthenticationController.cs
+* Description: 	This class is a controller dedicated to students which restricts reponses for managers and other potential roles.
+* Time Task B):	2 hrs
+*/
     [Authorize(Roles = UserRoles.Student)]
     [ApiController]
     [Route("[controller]")]
