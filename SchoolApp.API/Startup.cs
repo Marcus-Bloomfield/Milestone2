@@ -98,6 +98,9 @@ namespace SchoolApp.API
             {
                 endpoints.MapControllers();
             });
+
+            //seed
+            AppDbInitializer.SeedRolesToDb(app).Wait();
         }
     }
 }
