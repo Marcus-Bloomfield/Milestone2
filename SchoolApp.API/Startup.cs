@@ -46,7 +46,7 @@ namespace SchoolApp.API
                 ValidIssuer = Configuration["JWT:Issuer"],
 
                 ValidateAudience = true,
-                ValidAudience = Configuration["JWT:Audience"]
+                ValidAudience = Configuration["JWT:Audience"],
 
                 ValidateLifetime = true,
                 ClockSkew = TimeSpan.Zero
